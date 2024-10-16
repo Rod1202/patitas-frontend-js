@@ -8,6 +8,7 @@
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/inicio.css">
     <script type="module" src="js/inicio.js"></script>
+
 </head>
 
 <body>
@@ -18,10 +19,15 @@
         <div class="mt-5 mb-4">
             <h1>Login</h1>
         </div>
-
+        <div id="msgLogout" class="alert alert-success" role="alert"  style="display: none;"></div>
+    
         <div id="msgError" class="alert alert-danger" role="alert" style="display: none;">
             <span>Texto de prueba</span>
         </div>
+        <div id="msgSucces" class="alert alert-success" role="success" style="display: none;">
+            <span>Texto de prueba</span>
+         </div>
+
 
         <div class="mb-3">
             <select id="tipoDocumento" name="tipoDocumento" class="form-select form-select-lg">
